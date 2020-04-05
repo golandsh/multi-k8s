@@ -1,0 +1,17 @@
+{
+  "name": "worker",
+  "version": "1.0.0",
+  "description": "Complex Fib example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "author": "Shlomi Goland",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "2.0.2",
+    "redis": "3.0.2"
+  }
+}
